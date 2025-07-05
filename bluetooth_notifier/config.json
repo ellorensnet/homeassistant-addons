@@ -3,16 +3,12 @@
   "version": "1.0.0",
   "slug": "bluetooth_notifier",
   "description": "Escanea dispositivos Bluetooth y manda avisos por Telegram",
-  "startup": "application",
+  "startup": "services",
   "boot": "auto",
   "arch": ["armv7", "aarch64"],
-  "init": false,
   "host_network": true,
   "hassio_api": false,
   "options": {},
   "schema": {},
-  "build": {
-    "args": {},
-    "dockerfile": "Dockerfile"
-  }
+  "url": "https://github.com/ellorensnet/homeassistant-addons"
 }
