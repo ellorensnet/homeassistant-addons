@@ -11,5 +11,8 @@
   "hassio_api": false,
   "options": {},
   "schema": {},
-  "image": "ghcr.io/ellorensnet/bluetooth_notifier-{arch}"
+  "build": {
+    "args": {},
+    "dockerfile": "Dockerfile"
+  }
 }
