@@ -1,0 +1,12 @@
+{
+  "name": "Bluetooth Notifier",
+  "version": "1.0",
+  "slug": "bluetooth_notifier",
+  "description": "Detecta dispositivos Bluetooth y envía notificaciones",
+  "startup": "application",
+  "boot": "auto",
+  "arch": ["armv7", "aarch64"],
+  "options": {},
+  "schema": {},
+  "image": "local/bluetooth_notifier"
+}
